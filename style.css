@@ -152,7 +152,7 @@ input,button{
 /* Completed */
 .task-list#complete-task label {
   text-decoration: line-through;
-  color: #888
+  color: #888;
 }
 
 /* Edit Task */
