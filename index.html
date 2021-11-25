@@ -8,7 +8,7 @@
           media="screen"
           charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="header-block">
       <img class="header-img" src="./eisenhower-matrix.jpg">
       <a class="header-link"
@@ -18,43 +18,45 @@
     </div>
     <div class="main">
       <p id="main-item main-add">
-        <label for="add-title">Add Item</label>
+        <label class="add-title label" for="add-title">Add Item</label>
         <div class="add-row">
           <input id="add-task"
-                 class="add-task"
+                 class="add-task input-text"
                  type="text">
-          <button class="btn add-btn">Add</button>
+          <button class="add-btn btn">Add</button>
         </div>
       </p>
-      <h3 class="tack-title todo-title">Todo</h3>
-      <ul id="task-list">
+      <h3 class="task-title todo-title">Todo</h3>
+      <ul id="task-list" class="task-list">
         <li class="task-item task-item__choose">
-          <input type="checkbox">
-          <label class="task-subtitle">Pay Bills</label>
-          <input type="text" class="task-subtitle">
-          <button class="task-btn__edit">Edit</button>
-          <button class="task-btn__del">
+          <input type="checkbox" class="input-checkbox">
+          <label class="task-subtitle task-label">Pay Bills</label>
+          <input type="text" class="task-subtitle input-text">
+          <button class="task-btn__edit btn">Edit</button>
+          <button class="task-btn__del btn">
             <img class="delete-img" src="./remove.svg">
           </button>
         </li>
         <li class="task-item task-item__edit">
-          <input type="checkbox">
-          <label class="task-subtitle">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task-subtitle">
-          <button class="task-btn__edit">Save</button>
-          <button class="task-btn__del">
+          <input type="checkbox" class="input-checkbox">
+          <label class="task-subtitle task-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" 
+                 class="task-subtitle input-text">
+          <button class="task-btn__edit btn">Save</button>
+          <button class="task-btn__del btn">
             <img class="delete-img" src="./remove.svg">
           </button>
         </li>
       </ul>
       <h3 class="tack-title complete-title">Completed</h3>
-      <ul id="complete-task">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task-subtitle">See the Doctor</label>
-          <input type="text" class="task-subtitle">
-          <button class="task-btn__edit">Edit</button>
-          <button class="task-btn__del">
+      <ul id="complete-task" class="task-list">
+        <li class="task-item">
+          <input type="checkbox" class="input-checkbox" checked>
+          <label class="task-subtitle task-label">See the Doctor</label>
+          <input type="text" 
+                 class="task-subtitle input-text">
+          <button class="task-btn__edit btn">Edit</button>
+          <button class="task-btn__del btn">
             <img class="delete-img" src="./remove.svg">
           </button>
         </li>
