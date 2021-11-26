@@ -108,7 +108,7 @@ button {
   margin: 0 0 20px;
 }
 
-.input-text#add-task {
+#add-task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ button {
 }
 
 /* Completed */
-.task-list #complete-task .task-label {
+#complete-task .task-label {
   text-decoration: line-through;
   color: #888888;
 }
